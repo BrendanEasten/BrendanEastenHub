@@ -4,14 +4,13 @@
 
 
 body {
-  background: #0f0f0f; /* Dark background */
-  color: white;
+  background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
   font-family: 'Turret Road', sans-serif;
-  flex-direction: column; /* Stack the elements vertically */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default margin */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header {
   text-align: center;
@@ -19,7 +18,39 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #00000044;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navItem a {
+  color: #fcf8ff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(45deg, rgb(255, 125, 125), rgb(255,rgb(255, 255, 125)109), yellow, green, blue, indigo, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: background-color 0.3s ease;
+}
+
+.navItem a:hover {
+  background: linear-gradient(45deg, rgb(255, 152, 152), rgb(255, 211, 128), rgb(255, 255, 121), rgb(146, 255, 146), rgb(115, 115, 255), rgb(208, 143, 255), rgb(255, 166, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 .footer {
   text-align: center;
   padding: 20px;
@@ -27,11 +58,22 @@ body {
   color: #777;
 
 }
+.streamSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
 
+.chat {
+  border: none;
+}
 .slogan{
   font-family: 'Turret Road', sans-serif;
   font-size: 1rem; /* Adjust the size as needed */
-  color: #abffce; /* Or any color you prefer */
+  color: #8dabff; /* Or any color you prefer */
   text-align: center; /* Center align the text */
   letter-spacing: 2px; /* Optional for spacing out the characters */
   padding: 10px 0; /* Optional for vertical padding */
@@ -48,9 +90,8 @@ body {
 }
 .live{
   font-family: 'Turret Road', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #9a8fff;
-  text-shadow: 0 0 5px #af02ff, 0 0 10px #2f00ff, 0 0 20px #1c0581;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
 }

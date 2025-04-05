@@ -31,7 +31,20 @@
   border-radius: 15px;     /* optional rounded edges */
   transition: all 0.3s ease;
 }
+.glowWrapper {
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgb(128, 125, 255); /* your glow */
+  display: inline-flex;
+  gap: 10px; /* spacing between video and chat */
+  background-color: rgba(0, 0, 0, 0.3); /* optional dark background */
+  transition: box-shadow 0.3s ease;
+}
 
+.embed {
+  border: none;
+  border-radius: 10px;
+}
 
 .socials {
   margin-top: 2rem;
