@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header className="header">
-          <h1 className="logo">Brendan Easten's Hub 🌃</h1>
+          <h1 className="logo">Brendan Easten's Hub</h1>
 
           {/* About Me Section with Image on the Left */}
           <div className="aboutMe">

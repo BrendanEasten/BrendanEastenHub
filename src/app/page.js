@@ -21,6 +21,12 @@ export default function Home() {
             <a href="https://instagram.com/yourinsta" target="_blank">
               <img src="/imgs/tiktoktransparent.webp" alt="Instagram" className="icon" />
             </a>
+            <a href="https://instagram.com/yourinsta" target="_blank">
+              <img src="/imgs/discord.webp" alt="Instagram" className="icon" />
+            </a>
+            <a href="https://instagram.com/yourinsta" target="_blank">
+              <img src="/imgs/spotify.png" alt="Instagram" className="icon" />
+            </a>
           </div>
 <div className="aboutMe">
   </div>
