@@ -7,7 +7,6 @@ export default function RootLayout({ children }) {
       <body>
         <header className="header">
           <h1 className="logo">Brendan Easten's Hub</h1>
-          <p className="slogan">Gay Twink Of The Century</p>
 
           <nav className="navbar">
             <ul className="navList">
@@ -24,7 +23,7 @@ export default function RootLayout({ children }) {
             <div className="aboutContent">
             <img src="/imgs/img6.png" alt="Twitch" className="aboutImage" />
               <p className="aboutText">
-                Hey there I'm BrendanEasten I'm from Toronto! Your favorite streamer, gaymer, and content creator who's here to slay! 
+                Hey there I'm BrendanEasten,  I'm 24 years old and from Toronto! Your favorite streamer, gaymer, and content creator who's here to slay! 
                 I'm all about serving up that positive, fun energy and connecting with amazing people who vibe with me!!
                 Catch me on Twitch living my best life, and checkout my other platforms! I'm out here sharing my experiences and spreading that fabulous energy all over the place. 
                 Get ready for the ride! 💋
@@ -33,6 +32,7 @@ export default function RootLayout({ children }) {
           </div>
           
         </header>
+        
 
         {children}
 
