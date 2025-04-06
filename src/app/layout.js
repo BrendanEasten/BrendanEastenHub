@@ -10,10 +10,10 @@ export default function RootLayout({ children }) {
 
           <nav className="navbar">
             <ul className="navList">
+            <li className="navItem"><a href="#page.js">Home</a></li>
               <li className="navItem"><a href="#about">My Content</a></li>
-              <li className="navItem"><a href="#stream">Blogs</a></li>
-              <li className="navItem"><a href="#portfolio">Portfolio</a></li>
               <li className="navItem"><a href="#community">Community</a></li>
+              <li className="navItem"><a href="#blogs">Blogs</a></li>
               <li className="navItem"><a href="#shop">Shop</a></li>
               <li className="navItem"><a href="#contact">Contact</a></li>
             </ul>

@@ -113,7 +113,7 @@ Special shoutout to Twitch Subscribers & Donators, every single dollar helps me 
 </div>
 <div>
     <h2 className="donators">Donators</h2>
-    <p className="donator">HotMay69: $100, Monstuh: $60.00, NoahW: $10.00, Fizzelo: $5.00, madebyalexs: $4.20,  vLiquid: $3.00,  4chan: $1.00</p>
+    <p className="donator">HotMay69: $100 | Monstuh: $60.00 | NoahW: $10.00 | Fizzelo: $5.00 | madebyalexs: $4.20 | vLiquid: $3.00 | 4chan: $1.00</p>
 
 </div>
 
