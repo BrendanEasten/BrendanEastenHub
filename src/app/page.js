@@ -38,7 +38,7 @@ export default function Home() {
   <iframe
     src="https://player.twitch.tv/?channel=brendaneasten&parent=localhost"
     height="500"
-    width="900"
+    width="700"
     allowFullScreen
     className={styles.embed}
   ></iframe>
@@ -61,7 +61,7 @@ export default function Home() {
       <iframe
         width="350"
         height="500"
-        src="https://www.youtube.com/embed?listType=user_uploads&list=brendaneasten265"
+        src="https://www.youtube.com/embed/DNZBb9fAAek"
         title="YouTube"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -83,21 +83,40 @@ export default function Home() {
       </a>
     </div>
 
-    {/* Instagram Embed */}
-    <div className="contentBox instagramBox">
-      <h2>Instagram Posts</h2>
-      <iframe
-        src="https://www.instagram.com/p/CL5JGzwDN7o/embed"
-        height="500"
-        width="350"
-        frameBorder="0"
-        scrolling="no"
-        allowTransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-    </div>
+   {/* Instagram Embed */}
+<div className="contentBox instagramBox">
+  <h2>Instagram Posts</h2>
+  <iframe
+  src="https://www.instagram.com/p/CL5JGzwDN7o/embed"
+  width="350"
+  height="500"
+  style={{ border: "none", overflow: "hidden" }}
+  scrolling="no"
+  allow="encrypted-media"
+  title="Instagram Post"
+/>
+</div>
   </div>
 </div>
+
+<div>
+    <h1 className="blog">My Community</h1>
+    <p className="thankyou">
+Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validate my feelings! 
+Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together! 🐝💫
+</p>
+</div>
+
+<div>
+    <h2 className="subs">Twitch Subscribers</h2>
+    <p className="subscriber">DABEES 2025/04/05 </p>
+</div>
+<div>
+    <h2 className="donators">Donators</h2>
+    <p className="donator">HotMay69: $100, Monstuh: $60.00, NoahW: $10.00, Fizzelo: $5.00, madebyalexs: $4.20,  vLiquid: $3.00,  4chan: $1.00</p>
+
+</div>
+
     </main>
   );
 }

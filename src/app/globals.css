@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 .header {
   text-align: center;
@@ -33,24 +34,24 @@ body {
   gap: 20px;
 }
 
+
 .navItem a {
   color: #fcf8ff;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  background: linear-gradient(45deg, rgb(255, 125, 125), rgb(255,rgb(255, 255, 125)109), yellow, green, blue, indigo, violet);
   background-clip: text;
   -webkit-background-clip: text;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .navItem a:hover {
-  background: linear-gradient(45deg, rgb(255, 152, 152), rgb(255, 211, 128), rgb(255, 255, 121), rgb(146, 255, 146), rgb(115, 115, 255), rgb(208, 143, 255), rgb(255, 166, 255));
+  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(240, 240, 240));
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-}
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 
+  0 0 12px rgba(255, 255, 255, 0.6);}
 .footer {
   text-align: center;
   padding: 20px;
@@ -123,6 +124,59 @@ body {
   transform: scale(1.2);
 }
 
+.blog{ 
+  font-family: 'Turret Road', sans-serif;
+  font-size: 2.5rem;
+  color: #8fffff;
+  text-shadow: 0 0 2px #2affff, 0 0 6px #14ffff, 0 0 15px #52ffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subs{
+  font-family: 'Turret Road', sans-serif;
+  font-size: 2rem;
+  color: #8fa4ff;
+  text-shadow: 0 0 2px #7b82ec, 0 0 6px #6365f5, 0 0 15px #606bfc;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.donators{
+  font-family: 'Turret Road', sans-serif;
+  font-size: 2rem;
+  color: #5effb4;
+  text-shadow: 0 0 2px #71ff64, 0 0 6px #5dff80, 0 0 7px #49ff49;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.donator{
+  font-family: 'Turret Road', sans-serif;
+  color: #f1fff3;
+  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  text-align: left;
+  margin-top: 60px;
+}
+.subscriber{
+  font-family: 'Turret Road', sans-serif;
+  color: #fff2f0;
+  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  text-align: left;
+  margin-top: 60px;
+}
+
 .aboutMe {
   font-family: 'Turret Road', sans-serif;
   margin-top: 60px; /* Space between the logo and the About Me section */
@@ -155,9 +209,8 @@ body {
 }
 
 .aboutText {
-  font-size: 0.58em;
+  font-size: 1rem;
   color: #dcdcdc;
-  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   text-align: left; /* Aligns text to the left */
   background: rgba(0, 0, 0, 0.5); /* Transparent black background */
@@ -170,7 +223,26 @@ body {
 }
 
 .aboutText:hover {
-  box-shadow: 0 0 35px rgba(255, 182, 193, 0.8); /* Light purple-pink shadow */
+  box-shadow: 0 0 35px rgb(128, 125, 255); /* your glow */
+  transition: box-shadow 0.5s ease-out; /* Fade-out effect */
+}
+
+.thankyou{
+  font-size: 1.5em;
+  color: #fafffc;
+  text-shadow: 0 0 2px #ffdcdc, 0 0 6px #ffffff, 0 0 8px #ffffff;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the left */
+  border-radius: 15px;
+  padding: 30px;
+  backdrop-filter: blur(10px); /* Creates a blurred background effect */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  width: 75%; /* Adjust width to make room for the image */
+  margin-left: auto;
+  margin-right: auto;
+}
+.thankyou:hover {
+  box-shadow: 0 0 20px rgb(125, 251, 255); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
