@@ -16,19 +16,19 @@ export default function Home() {
           <a href="https://www.youtube.com/@brendaneasten265" target="_blank" title="YouTube">
             <img src="/imgs/YoutubeLogo.png" alt="YouTube" className="icon" />
           </a>
-          <a href="https://twitter.com/yourhandle" target="_blank" title="Twitter">
+          <a href="https://x.com/BrendanEasten" target="_blank" title="Twitter">
             <img src="/imgs/XTransparentLogo.webp" alt="X" className="icon" />
           </a>
-          <a href="https://instagram.com/yourinsta" target="_blank" title="Instagram">
+          <a href="https://www.instagram.com/brendaneasten/" target="_blank" title="Instagram">
             <img src="/imgs/InstagramTransparentLogo.webp" alt="Instagram" className="icon" />
           </a>
-          <a href="https://www.tiktok.com/@yourhandle" target="_blank" title="TikTok">
+          <a href="https://www.tiktok.com/@brendaneasten111" target="_blank" title="TikTok">
             <img src="/imgs/tiktokicon.webp" alt="TikTok" className="icon" />
           </a>
           <a href="https://discord.com/invite/yourdiscord" target="_blank" title="Discord">
             <img src="/imgs/discord.webp" alt="Discord" className="icon" />
           </a>
-          <a href="https://spotify.com/yourprofile" target="_blank" title="Spotify">
+          <a href="https://open.spotify.com/user/3bbsp8tigzis5nw35uxd1ms8t?si=f6ef70f269cd4bd8" target="_blank" title="Spotify">
             <img src="/imgs/spotifylogo2.webp" alt="Spotify" className="icon" />
           </a>
         </div>
