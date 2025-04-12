@@ -80,7 +80,7 @@ export default function HomePage() {
         <div className="contentBoxes">
           {/* YouTube Embed */}
           <div className="contentBox youtubeBox">
-            <h2 className="youtube">Click For More Videos @BrendaEasten265</h2>
+            <h2 className="youtube">Youtube @BrendaEasten265</h2>
             <iframe
               width="350"
               height="500"
@@ -97,7 +97,7 @@ export default function HomePage() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <p className="spotify">Click To Listen To My Playlist @BrendanEasten</p>
+    <p className="spotify">Spotify @BrendanEasten</p>
     <iframe
       style={{
         borderRadius: '12px',
@@ -115,7 +115,7 @@ export default function HomePage() {
           {/* Instagram Embed */}
           <div className="contentBox instagramBox">
             <a href="https://www.instagram.com/brendaneasten" target="_blank" rel="noopener noreferrer">
-              <p className="instagram">Click To View Insta Posts @BrendanEasten</p>
+              <p className="instagram">Instagram @BrendanEasten</p>
               <img
                 src="/imgs/instafeed1.png" // Replace with an actual local image or a public URL
                 alt="Brendan Easten Instagram Preview"

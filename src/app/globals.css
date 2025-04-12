@@ -331,7 +331,7 @@ body {
 }
 
 .spotify {
-  text-decoration: none;
+  text-decoration: none; /* Remove underline from the text */
   font-size: 1rem;
   font-weight: bolder;
   color: #dcdcdc;
@@ -344,10 +344,20 @@ body {
   width: 75%;
 }
 
-spotifyBox a, twitterBox a,
+.spotify a {
+  text-decoration: none; /* Explicitly remove underline from the link */
+}
+
+.spotify a p {
+  text-decoration: none; /* Ensure no underline on the <p> inside <a> */
+}
+twitterBox a,
 .instagramBox a {
   text-decoration: none;
   color: inherit;
+}
+a {
+  text-decoration: none !important; /* Force remove the underline */
 }
 .aboutText:hover {
   box-shadow: 0 0 35px rgb(128, 125, 255); /* your glow */
