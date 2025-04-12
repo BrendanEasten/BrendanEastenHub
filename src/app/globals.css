@@ -127,16 +127,22 @@ body {
   transform: scale(1.2);
 }
 
-.blog{ 
+.blog { 
   font-family: 'Turret Road', sans-serif;
   font-size: 2.5rem;
   color: #bfbaff;
-  text-shadow: 0 0 2px #88ffc3, 0 0 6px #7fff9f;
+  text-shadow: 0 0 2px #9a88ff, 0 0 6px #8c7fff;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
+
+  padding: 20px 40px;         /* Inside space */
+  width: 100%;                /* Full width */
   margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  border-radius: 30px;
+
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .community{
@@ -351,13 +357,13 @@ body {
 .contactBackground {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 50px 40px;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 100%;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 10px rgb(142, 242, 255);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
   backdrop-filter: blur(8px);
   transition: all 0.3s ease;
 }
