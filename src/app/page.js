@@ -63,18 +63,13 @@ export default function HomePage() {
       <ScrollFadeIn delay={0.6} glitch={true}>
         <div className={`${styles.videos} ${styles.glowWrapper}`}>
           <iframe
-            src="https://player.twitch.tv/?channel=brendaneasten&parent=localhost"
-            height="500"
-            width="700"
+            src="https://player.twitch.tv/?video=1935174816&parent=localhost"
+            height="600"
+            width="1000"
             allowFullScreen
             className={styles.embed}
           ></iframe>
-          <iframe
-            src="https://www.twitch.tv/embed/brendaneasten/chat?parent=localhost"
-            height="500"
-            width="350"
-            className={styles.embed}
-          ></iframe>
+     
         </div>
       </ScrollFadeIn>
       <div id="about"></div>
@@ -131,7 +126,7 @@ export default function HomePage() {
         <div>
           <h1 className="community">My Community</h1>
           <p className="thankyou">
-Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validated my feelings! 
+Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validate my feelings! 
 Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together!💫
 </p>
         </div>
