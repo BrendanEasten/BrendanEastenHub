@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
 
 
 
 body {
-  background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
+  background: radial-gradient(circle, #0b013a, #000000);
   font-family: 'Turret Road', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -22,16 +24,15 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #00000044;
   padding: 10px 0;
   border-radius: 5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navList {
   list-style: none;
   display: flex;
   gap: 20px;
+  padding-left: 20px;
 }
 
 
@@ -83,21 +84,23 @@ body {
 
 .logo {
   font-family: 'Turret Road', sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #8fffff;
-  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #008888;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
+  margin-left: 25px;
 }
+
+
 .content{
-  font-family: 'Turret Road', sans-serif;
   font-size: 2.5rem;
-  color: #f0ffff;
-  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff, 0 0 15px #dcffff;
+  color: #8fffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
-  text-align: left;
   margin-top: 60px;
+  text-align: center;
 }
 
 .live{
@@ -127,8 +130,8 @@ body {
 .blog{ 
   font-family: 'Turret Road', sans-serif;
   font-size: 2.5rem;
-  color: #8fffff;
-  text-shadow: 0 0 2px #2affff, 0 0 6px #14ffff, 0 0 15px #52ffff;
+  color: #bfbaff;
+  text-shadow: 0 0 2px #88ffc3, 0 0 6px #7fff9f;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
   margin-top: 60px;
@@ -136,30 +139,45 @@ body {
   margin-right: auto;
 }
 
+.community{
+  font-family: 'Turret Road', sans-serif;
+  font-size: 2.5rem;
+  color: #8fffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .subs{
   font-family: 'Turret Road', sans-serif;
   font-size: 2rem;
   color: #8fa4ff;
-  text-shadow: 0 0 2px #7b82ec, 0 0 6px #6365f5, 0 0 15px #606bfc;
+  text-shadow: 0 0 2px #7b82ec, 0 0 6px #6365f5;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
   text-align: left;
   margin-top: 60px;
+  text-align: center;
 }
 
 .donators{
   font-family: 'Turret Road', sans-serif;
   font-size: 2rem;
   color: #5effb4;
-  text-shadow: 0 0 2px #71ff64, 0 0 6px #5dff80, 0 0 15px #49ff49;
+  text-shadow: 0 0 2px #71ff64, 0 0 6px #5dff80;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
   text-align: left;
   margin-top: 60px;
+  text-align: center;
 }
 
 .donator{
-  font-family: 'Turret Road', sans-serif;
+  font-family: "Oxanium", sans-serif;
   color: #f1fff3;
   text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
   letter-spacing: 2px;
@@ -172,10 +190,12 @@ body {
   backdrop-filter: blur(10px); /* Creates a blurred background effect */
   transition: all 0.3s ease; /* Smooth hover animation */
   width: 75%; /* Adjust width to make room for the image */
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .subscriber{
-  font-family: 'Turret Road', sans-serif;
+  font-family: "Oxanium", sans-serif;
   color: #fff2f0;
   text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
   letter-spacing: 2px;
@@ -188,6 +208,8 @@ body {
   backdrop-filter: blur(10px); /* Creates a blurred background effect */
   transition: all 0.3s ease; /* Smooth hover animation */
   width: 75%; /* Adjust width to make room for the image */
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -236,6 +258,7 @@ body {
 
 .aboutText {
   font-size: 1rem;
+  font-weight: bolder;
   color: #dcdcdc;
   line-height: 1.6;
   text-align: left; /* Aligns text to the left */
@@ -255,6 +278,7 @@ body {
 
 .thankyou{
   font-size: 1.5em;
+  font-family: "Oxanium", sans-serif;
   color: #fafffc;
   text-shadow: 0 0 2px #ffdcdc, 0 0 6px #ffffff;
   line-height: 1.6;
@@ -315,6 +339,174 @@ body {
 
 .instagramBox iframe {
   border-radius: 10px;
+}
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.contactBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(142, 242, 255);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.contact {
+  font-family: 'Turret Road', sans-serif;
+  font-size: 2.8rem;
+  color: #f3f0ff;
+  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contactinfo {
+  font-family: "Oxanium", sans-serif;
+  font-size: 1rem;
+  color: #f0ffff;
+  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
+  letter-spacing: 1.5px;
+  animation: glow 1.5s infinite alternate;
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 15px;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+label {
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.2rem;
+  color: #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input,
+textarea {
+  font-family: "Oxanium", sans-serif;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #dcdcdc;
+  box-shadow: 0 0 5px rgb(253, 255, 255);
+  transition: all 0.3s ease;
+  margin-top: 8px;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgb(254, 254, 255);
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  color: #000;
+  background: #fffbfd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgb(255, 250, 253);
+  font-family: "Oxanium", sans-serif;
+  align-self: center;
+}
+
+button:hover {
+  background: #ffffff;
+  box-shadow: 0 0 25px rgb(246, 246, 255);
+}
+
+.post {
+  font-family: 'Turret Road', sans-serif;
+  font-size: 3rem;
+  color: #f0ffff;
+  text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* Neon effect for the post content (p) */
+.postcontent {
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.2rem;
+  color: #dcdcdc;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the left */
+  background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgb(145, 233, 255); /* Glowing futuristic effect */
+  backdrop-filter: blur(10px); /* Creates a blurred background effect */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  width: 75%; /* Adjust width to make room for the image */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.postList {
+  list-style: disc; /* show bullet points */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.postItem {
+  color: white;
+  font-family: "Oxanium", sans-serif;
+}
+
+.postItem a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: text-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.postItem a:hover {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6), 
+               0 0 10px rgba(255, 255, 255, 0.4);
+  transform: translateX(4px);
 }
 
 /* Responsive Design */

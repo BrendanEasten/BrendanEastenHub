@@ -1,11 +1,30 @@
 import styles from "./page.module.css";
 import ScrollFadeIn from "./components/ScrollFadeIn";
+import Link from 'next/link';
 
 
-export default function Home() {
+
+export default function HomePage() {
+  const posts = [
+    { id: '1', title: 'My 1 year Journey With Computer Programing 👨‍💻' },
+    { id: '2', title: 'Why I’ve Always Been Curious About Psychedelics 🍄' },
+  ];
   return (
     <main className={styles.container}>
-
+<ScrollFadeIn>
+            <div className="aboutMe">
+              <div className="aboutContent">
+                <img src="/imgs/img6.png" alt="Twitch" className="aboutImage" />
+                <p className="aboutText">
+                  Hey there I'm BrendanEasten, I'm 24 years old and from Toronto! Your favorite streamer, gaymer, and content creator who's here to slay!
+                  I'm all about serving up that positive, fun energy and connecting with amazing people who vibe with me!!
+                  Catch me on Twitch living my best life, and check out my other platforms! I'm out here sharing my experiences and spreading that fabulous energy all over the place.
+                  Get ready for the ride! 💋
+                </p>
+              </div>
+            </div>
+          </ScrollFadeIn>
+          <br></br>
       {/* Socials Section */}
       <ScrollFadeIn delay={0.2} glitch={true}>
         <div className="socials">
@@ -33,7 +52,6 @@ export default function Home() {
           </a>
         </div>
       </ScrollFadeIn>
-
       {/* About Me */}
       <ScrollFadeIn delay={0.4} glitch={false}>
         <div className="aboutMe">
@@ -59,10 +77,10 @@ export default function Home() {
           ></iframe>
         </div>
       </ScrollFadeIn>
-
+      <div id="about"></div>
       {/* Content Boxes */}
       <ScrollFadeIn delay={0.8} glitch={true}>
-      <h1 className="content" id="community">My Content</h1>
+      <h1 className="content"></h1>
         <div className="contentBoxes">
           {/* YouTube Embed */}
           <div className="contentBox youtubeBox">
@@ -111,7 +129,7 @@ export default function Home() {
       {/* Community Section */}
       <ScrollFadeIn delay={1.0} glitch={false}>
         <div>
-          <h1 className="blog" id="community">My Community</h1>
+          <h1 className="community">My Community</h1>
           <p className="thankyou">
 Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validated my feelings! 
 Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together!💫
@@ -125,7 +143,7 @@ Special shoutout to Twitch Subscribers & Donators, every single dollar helps me 
           <h2 className="subs">Twitch Subscribers (01)</h2>
           <p className="subscriber">DABEES 2025/04/05 </p>
         </div>
-        <div>
+        <div id="community">
           <h2 className="donators">Donators (07)</h2>
           <p className="donator">
             HotMay69: $100 | Monstuh: $60.00 | NoahW: $10.00 | Fizzelo: $5.00 | madebyalexs: $4.20 | vLiquid: $3.00 | 4chan: $1.00
