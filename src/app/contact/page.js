@@ -1,8 +1,8 @@
 export default function ContactPage() {
     return (
-        <main className="contactWrapper">
+        <main >
+
             <div className="contactBackground">
-                <h1 className="contact">Contact Me!</h1>
                 <p className="contactinfo">I’d love to hear from you! Whether you have questions, collaboration ideas, or just want to chat, I’m here to connect. I make it a priority to respond to all messages within 24 hours, so feel free to reach out.
 
 </p>
