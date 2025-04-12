@@ -285,6 +285,54 @@ body {
   width: 75%; /* Adjust width to make room for the image */
 }
 
+.youtube{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #dcdcdc;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the left */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(255, 76, 76, 0.938); /* Glowing futuristic effect */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  width: 75%; /* Adjust width to make room for the image */
+}
+
+.x{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #dcdcdc;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the left */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgb(145, 233, 255); /* Glowing futuristic effect */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  width: 75%; /* Adjust width to make room for the image */
+}
+
+
+.instagram{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #dcdcdc;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the left */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgb(255, 185, 145); /* Glowing futuristic effect */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  width: 75%; /* Adjust width to make room for the image */
+}
+
+.twitterBox a,
+.instagramBox a {
+  text-decoration: none;
+  color: inherit;
+}
 .aboutText:hover {
   box-shadow: 0 0 35px rgb(128, 125, 255); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
@@ -312,19 +360,39 @@ body {
   gap: 30px;
   margin-top: 2rem;
   padding: 20px;
+  justify-content: center;
 }
 
 .contentBox {
-  background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  overflow: hidden;
-  width: 33%; /* Adjust width for 3 columns */
+  width: 100%; /* Adjust width for 3 columns */
   max-width: 500px; /* Optional, for responsive design */
-  min-height: 350px; /* adjust as needed */
+  min-height: 150px; /* adjust as needed */
+  height: 300px;
+  overflow-y: auto;
 
+}
+
+.contentBox::-webkit-scrollbar {
+  width: 6px;
+}
+
+.contentBox::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.contentBox::-webkit-scrollbar-thumb {
+  background-color: #000; /* Matte black */
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); /* Subtle white glow */
+}
+
+.contentBox::-webkit-scrollbar-thumb:hover {
+  background-color: #000000; /* Slight lightening on hover */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
 }
 
 .contentBox:hover {

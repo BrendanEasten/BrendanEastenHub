@@ -11,20 +11,21 @@ export default function HomePage() {
   ];
   return (
     <main className={styles.container}>
-<ScrollFadeIn>
-            <div className="aboutMe">
-              <div className="aboutContent">
-                <img src="/imgs/img6.png" alt="Twitch" className="aboutImage" />
-                <p className="aboutText">
-                  Hey there I'm BrendanEasten, I'm 24 years old and from Toronto! Your favorite streamer, gaymer, and content creator who's here to slay!
-                  I'm all about serving up that positive, fun energy and connecting with amazing people who vibe with me!!
-                  Catch me on Twitch living my best life, and check out my other platforms! I'm out here sharing my experiences and spreading that fabulous energy all over the place.
-                  Get ready for the ride! 💋
-                </p>
-              </div>
-            </div>
-          </ScrollFadeIn>
-          <br></br>
+      <ScrollFadeIn>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div className="aboutMe">
+          <div className="aboutContent">
+            <img src="/imgs/img6.png" alt="Twitch" className="aboutImage" />
+            <p className="aboutText">
+              Hey there I'm BrendanEasten, I'm 24 years old and from Toronto! Your favorite streamer, gaymer, and content creator who's here to slay!
+              I'm all about serving up that positive, fun energy and connecting with amazing people who vibe with me!!
+              Catch me on Twitch living my best life, and check out my other platforms! I'm out here sharing my experiences and spreading that fabulous energy all over the place.
+              Get ready for the ride! 💋
+            </p>
+          </div>
+        </div>
+      </ScrollFadeIn>
+      <br></br>
       {/* Socials Section */}
       <ScrollFadeIn delay={0.2} glitch={true}>
         <div className="socials">
@@ -69,17 +70,17 @@ export default function HomePage() {
             allowFullScreen
             className={styles.embed}
           ></iframe>
-     
+
         </div>
       </ScrollFadeIn>
       <div id="about"></div>
       {/* Content Boxes */}
       <ScrollFadeIn delay={0.8} glitch={true}>
-      <h1 className="content"></h1>
+        <h1 className="content"></h1>
         <div className="contentBoxes">
           {/* YouTube Embed */}
           <div className="contentBox youtubeBox">
-            <h2>YouTube Videos</h2>
+            <h2 className="youtube">Click For More YouTube Videos @BrendaEasten</h2>
             <iframe
               width="350"
               height="500"
@@ -93,30 +94,36 @@ export default function HomePage() {
 
           {/* Twitter Embed */}
           <div className="contentBox twitterBox">
-            <h2>Recent Tweets</h2>
             <a
-              className="twitter-timeline"
               href="https://x.com/BrendanEasten"
-              data-width="350"
-              data-height="500"
-              data-theme="dark"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Tweets by BrendanEasten
+              <p className="x">
+                Click To View Tweets @BrendanEasten
+              </p>
+              <img
+                src="/imgs/xfeed3.png" // Replace with a local image or hosted screenshot
+                alt="Brendan Easten Twitter Preview"
+                style={{
+                  width: '100%',
+                  borderRadius: '12px',
+                  objectFit: 'cover',
+                }}
+              />
             </a>
           </div>
 
           {/* Instagram Embed */}
           <div className="contentBox instagramBox">
-            <h2>Instagram Posts</h2>
-            <iframe
-              src="https://www.instagram.com/p/CL5JGzwDN7o/embed"
-              width="350"
-              height="500"
-              style={{ border: "none", overflow: "hidden" }}
-              scrolling="no"
-              allow="encrypted-media"
-              title="Instagram Post"
-            />
+            <a href="https://www.instagram.com/brendaneasten" target="_blank" rel="noopener noreferrer">
+              <p className="instagram">Click To View Insta Posts @BrendanEasten</p>
+              <img
+                src="/imgs/instafeed1.png" // Replace with an actual local image or a public URL
+                alt="Brendan Easten Instagram Preview"
+                style={{ width: '100%', borderRadius: '12px' }}
+              />
+            </a>
           </div>
         </div>
       </ScrollFadeIn>
@@ -126,9 +133,9 @@ export default function HomePage() {
         <div>
           <h1 className="community">My Community</h1>
           <p className="thankyou">
-Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validate my feelings! 
-Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together!💫
-</p>
+            Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validate my feelings!
+            Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together!💫
+          </p>
         </div>
       </ScrollFadeIn>
 
