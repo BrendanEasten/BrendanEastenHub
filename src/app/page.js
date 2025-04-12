@@ -91,26 +91,27 @@ export default function HomePage() {
               allowFullScreen
             ></iframe>
           </div>
+          {/* Spotify Embed */}
           <div className="contentBox spotifyBox">
-  <a
-    href="https://open.spotify.com/playlist/0LRPMHQQDZtjhYCXKhbO7h?utm_source=generator"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <p className="spotify">Spotify @BrendanEasten</p>
-    <iframe
-      style={{
-        borderRadius: '12px',
-        width: '100%',
-        height: '352px',
-        border: 'none',
-      }}
-      src="https://open.spotify.com/embed/playlist/0LRPMHQQDZtjhYCXKhbO7h?utm_source=generator"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-  </a>
-</div>
+            <p className="spotify">Spotify @BrendanEasten</p>
+            <a
+              href="https://open.spotify.com/playlist/2Ff0DVdulDRzQ0Q71JvFYd?utm_source=generator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <iframe
+                style={{
+                  borderRadius: '12px',
+                  width: '100%',
+                  height: '352px',
+                  border: 'none',
+                }}
+                src="https://open.spotify.com/embed/playlist/2Ff0DVdulDRzQ0Q71JvFYd?utm_source=generator"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </a>
+          </div>
 
           {/* Instagram Embed */}
           <div className="contentBox instagramBox">
