@@ -80,7 +80,7 @@ export default function HomePage() {
         <div className="contentBoxes">
           {/* YouTube Embed */}
           <div className="contentBox youtubeBox">
-            <h2 className="youtube">Click For More YouTube Videos @BrendaEasten</h2>
+            <h2 className="youtube">Click For More Videos @BrendaEasten265</h2>
             <iframe
               width="350"
               height="500"
@@ -91,28 +91,26 @@ export default function HomePage() {
               allowFullScreen
             ></iframe>
           </div>
-
-          {/* Twitter Embed */}
-          <div className="contentBox twitterBox">
-            <a
-              href="https://x.com/BrendanEasten"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="x">
-                Click To View Tweets @BrendanEasten
-              </p>
-              <img
-                src="/imgs/xfeed3.png" // Replace with a local image or hosted screenshot
-                alt="Brendan Easten Twitter Preview"
-                style={{
-                  width: '100%',
-                  borderRadius: '12px',
-                  objectFit: 'cover',
-                }}
-              />
-            </a>
-          </div>
+          <div className="contentBox spotifyBox">
+  <a
+    href="https://open.spotify.com/playlist/0LRPMHQQDZtjhYCXKhbO7h?utm_source=generator"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <p className="spotify">Click To Listen To My Playlist @BrendanEasten</p>
+    <iframe
+      style={{
+        borderRadius: '12px',
+        width: '100%',
+        height: '352px',
+        border: 'none',
+      }}
+      src="https://open.spotify.com/embed/playlist/0LRPMHQQDZtjhYCXKhbO7h?utm_source=generator"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  </a>
+</div>
 
           {/* Instagram Embed */}
           <div className="contentBox instagramBox">
@@ -126,6 +124,10 @@ export default function HomePage() {
             </a>
           </div>
         </div>
+
+        {/* Spotify Embed */}
+
+
       </ScrollFadeIn>
 
       {/* Community Section */}

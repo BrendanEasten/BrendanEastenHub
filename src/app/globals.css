@@ -206,6 +206,7 @@ body {
   width: 75%; /* Adjust width to make room for the image */
   margin-left: auto;
   margin-right: auto;
+  font-weight: lighter;
 
 }
 .subscriber{
@@ -224,6 +225,7 @@ body {
   width: 75%; /* Adjust width to make room for the image */
   margin-left: auto;
   margin-right: auto;
+  font-weight: lighter;
 
 }
 
@@ -328,7 +330,21 @@ body {
   width: 75%; /* Adjust width to make room for the image */
 }
 
-.twitterBox a,
+.spotify {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #dcdcdc;
+  line-height: 1.6;
+  text-align: left;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 8px #1DB954; /* Spotify green glow */
+  transition: all 0.3s ease;
+  width: 75%;
+}
+
+spotifyBox a, twitterBox a,
 .instagramBox a {
   text-decoration: none;
   color: inherit;
