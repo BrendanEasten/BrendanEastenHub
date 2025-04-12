@@ -1,4 +1,7 @@
+"use client";
+
 import Link from 'next/link';
+import ScrollFadeIn from '../components/ScrollFadeIn';
 
 export default function HomePage() {
   const posts = [
@@ -8,6 +11,7 @@ export default function HomePage() {
 
   return (
     <main>
+    <ScrollFadeIn delay={0.1} glitch={true}>
       <h2 className="blog">My Blogs</h2>
       <ul className="postList">
         {posts.map(post => (
@@ -16,6 +20,7 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
+      </ScrollFadeIn>
     </main>
   );
 }

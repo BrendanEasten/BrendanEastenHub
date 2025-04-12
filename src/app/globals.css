@@ -124,8 +124,8 @@ body {
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
@@ -230,12 +230,12 @@ body {
 }
 
 .subscriber:hover{
-  box-shadow: 0 0 35px rgb(128, 125, 255); /* your glow */
+  box-shadow: 0 0 20px rgb(128, 125, 255); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
 .donator:hover{
-  box-shadow: 0 0 35px rgb(125, 255, 147); /* your glow */
+  box-shadow: 0 0 20px rgb(125, 255, 147); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
@@ -281,7 +281,7 @@ body {
   background: rgba(0, 0, 0, 0.5); /* Transparent black background */
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 0 30px rgb(145, 233, 255); /* Glowing futuristic effect */
+  box-shadow: 0 0 20px rgb(145, 233, 255); /* Glowing futuristic effect */
   backdrop-filter: blur(10px); /* Creates a blurred background effect */
   transition: all 0.3s ease; /* Smooth hover animation */
   width: 75%; /* Adjust width to make room for the image */
@@ -289,16 +289,34 @@ body {
 
 .youtube{
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   color: #dcdcdc;
   line-height: 1.6;
-  text-align: left; /* Aligns text to the left */
-  border-radius: 15px;
-  padding: 30px;
+  border-radius: 20px;
+  padding: 15px;
   box-shadow: 0 0 8px rgba(255, 76, 76, 0.938); /* Glowing futuristic effect */
   transition: all 0.3s ease; /* Smooth hover animation */
-  width: 75%; /* Adjust width to make room for the image */
+  width: 100%; /* Adjust width to make room for the image */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube:hover{
+  box-shadow: 0 0 15px rgba(255, 14, 14, 0.938); /* Glowing futuristic effect */
+
+}
+
+.youtubeTextImage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.icon2{
+  width: 80px;
+  height: 80px;
 }
 
 .x{
@@ -313,35 +331,64 @@ body {
   box-shadow: 0 0 8px rgb(145, 233, 255); /* Glowing futuristic effect */
   transition: all 0.3s ease; /* Smooth hover animation */
   width: 75%; /* Adjust width to make room for the image */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .instagram{
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   color: #dcdcdc;
   line-height: 1.6;
-  text-align: left; /* Aligns text to the left */
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 0 8px rgb(255, 185, 145); /* Glowing futuristic effect */
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 0 8px rgb(255, 119, 29); /* Glowing futuristic effect */
   transition: all 0.3s ease; /* Smooth hover animation */
-  width: 75%; /* Adjust width to make room for the image */
+  width: 38%; /* Adjust width to make room for the image */
+  
+}
+.instagram:hover{
+  box-shadow: 0 0 15px rgba(255, 162, 75, 0.938); /* Glowing futuristic effect */
+
+}
+
+.instagramTextImage {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+  margin-bottom: 12px;
+}
+
+.icon1 {
+  width: 100px;
+  height: 100px;
+}
+
+.instagramLink {
+  text-decoration: none;
+  color: inherit;
 }
 
 .spotify {
   text-decoration: none; /* Remove underline from the text */
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   color: #dcdcdc;
   line-height: 1.6;
-  text-align: left;
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 0 8px #1DB954; /* Spotify green glow */
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 0 8px #1cff6c; /* Spotify green glow */
   transition: all 0.3s ease;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spotify:hover{
+  box-shadow: 0 0 15px rgba(22, 255, 112, 0.938); /* Glowing futuristic effect */
+
 }
 
 .spotify a {
@@ -360,7 +407,7 @@ a {
   text-decoration: none !important; /* Force remove the underline */
 }
 .aboutText:hover {
-  box-shadow: 0 0 35px rgb(128, 125, 255); /* your glow */
+  box-shadow: 0 0 25px rgb(128, 125, 255); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
@@ -483,10 +530,10 @@ a {
 
 .contactinfo {
   font-family: "Oxanium", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
   color: #f0ffff;
   text-shadow: 0 0 2px #f3ffff, 0 0 6px #fdffff;
-  letter-spacing: 1.5px;
   animation: glow 1.5s infinite alternate;
   text-align: center;
   width: 90%;

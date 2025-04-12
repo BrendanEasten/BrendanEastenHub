@@ -80,20 +80,41 @@ export default function HomePage() {
         <div className="contentBoxes">
           {/* YouTube Embed */}
           <div className="contentBox youtubeBox">
-            <h2 className="youtube">Youtube @BrendaEasten265</h2>
-            <iframe
-              width="350"
-              height="500"
-              src="https://www.youtube.com/embed/DNZBb9fAAek?autoplay=1&mute=1&playsinline=1"
-              title="YouTube"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <div className="youtubeTextImage">
+            <a
+    href="https://www.youtube.com/@brendaneasten265"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="youtubeTextImage"
+  >
+    <img
+      src="/imgs/YoutubeLogo.png"
+      alt="YouTube"
+      className="icon2"
+    />
+    <h2 className="youtube">@BrendaEasten265</h2>
+  </a>
+            </div>
+
+            <a
+              href="https://www.youtube.com/@brendaneasten265"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="YouTube Channel"
+            >
+              <iframe
+                width="350"
+                height="500"
+                src="https://www.youtube.com/embed/DNZBb9fAAek?autoplay=1&mute=1&playsinline=1"
+                title="YouTube Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </a>
           </div>
           {/* Spotify Embed */}
           <div className="contentBox spotifyBox">
-            <p className="spotify">Spotify @BrendanEasten</p>
             <a
               href="https://open.spotify.com/playlist/2Ff0DVdulDRzQ0Q71JvFYd?utm_source=generator"
               target="_blank"
@@ -115,10 +136,22 @@ export default function HomePage() {
 
           {/* Instagram Embed */}
           <div className="contentBox instagramBox">
-            <a href="https://www.instagram.com/brendaneasten" target="_blank" rel="noopener noreferrer">
-              <p className="instagram">Instagram @BrendanEasten</p>
+            <a
+              href="https://www.instagram.com/brendaneasten"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="instagramLink"
+            >
+              <div className="instagramTextImage">
+                <img
+                  src="/imgs/InstagramTransparentLogo.webp"
+                  alt="Instagram"
+                  className="icon1"
+                />
+                <p className="instagram">@BrendanEasten</p>
+              </div>
               <img
-                src="/imgs/instafeed1.png" // Replace with an actual local image or a public URL
+                src="/imgs/instafeed1.png"
                 alt="Brendan Easten Instagram Preview"
                 style={{ width: '100%', borderRadius: '12px' }}
               />
@@ -139,7 +172,7 @@ export default function HomePage() {
             Huge love to my amazing community your support means the world to me! 💖 Whether you’ve subbed, donated, followed or simply cheered me on  you’ve helped really validate my feelings!
             Special shoutout to Twitch Subscribers & Donators, every single dollar helps me out! Thank you for being part of this journey. Let’s keep growing together!💫
           </p>
-        </div>
+          </div>
       </ScrollFadeIn>
 
       {/* Subscriptions & Donators */}
