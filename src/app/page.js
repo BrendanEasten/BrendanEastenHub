@@ -92,7 +92,7 @@ export default function HomePage() {
       alt="YouTube"
       className="icon2"
     />
-    <h2 className="youtube">@BrendaEasten265</h2>
+    <h2 className="youtube">@BrendanEasten265</h2>
   </a>
             </div>
 

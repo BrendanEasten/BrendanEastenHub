@@ -84,7 +84,7 @@ body {
 
 .logo {
   font-family: 'Turret Road', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #8fffff;
   text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
   letter-spacing: 2px;
@@ -155,7 +155,7 @@ body {
 
 .community{
   font-family: 'Turret Road', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #8fffff;
   text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
   letter-spacing: 2px;
@@ -168,7 +168,7 @@ body {
 
 .subs{
   font-family: 'Turret Road', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #8fa4ff;
   text-shadow: 0 0 2px #7b82ec, 0 0 6px #6365f5;
   letter-spacing: 2px;
@@ -180,7 +180,7 @@ body {
 
 .donators{
   font-family: 'Turret Road', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #5effb4;
   text-shadow: 0 0 2px #71ff64, 0 0 6px #5dff80;
   letter-spacing: 2px;
@@ -281,7 +281,7 @@ body {
   background: rgba(0, 0, 0, 0.5); /* Transparent black background */
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 0 20px rgb(145, 233, 255); /* Glowing futuristic effect */
+  box-shadow: 0 0 15px rgb(145, 233, 255); /* Glowing futuristic effect */
   backdrop-filter: blur(10px); /* Creates a blurred background effect */
   transition: all 0.3s ease; /* Smooth hover animation */
   width: 75%; /* Adjust width to make room for the image */
@@ -297,7 +297,7 @@ body {
   padding: 15px;
   box-shadow: 0 0 8px rgba(255, 76, 76, 0.938); /* Glowing futuristic effect */
   transition: all 0.3s ease; /* Smooth hover animation */
-  width: 100%; /* Adjust width to make room for the image */
+  width: 75%; /* Adjust width to make room for the image */
   margin-left: auto;
   margin-right: auto;
 }
@@ -346,7 +346,7 @@ body {
   padding: 15px;
   box-shadow: 0 0 8px rgb(255, 119, 29); /* Glowing futuristic effect */
   transition: all 0.3s ease; /* Smooth hover animation */
-  width: 38%; /* Adjust width to make room for the image */
+  width: 50%; /* Adjust width to make room for the image */
   
 }
 .instagram:hover{
@@ -407,7 +407,7 @@ a {
   text-decoration: none !important; /* Force remove the underline */
 }
 .aboutText:hover {
-  box-shadow: 0 0 25px rgb(128, 125, 255); /* your glow */
+  box-shadow: 0 0 20px rgb(128, 125, 255); /* your glow */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
