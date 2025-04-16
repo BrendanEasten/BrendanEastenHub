@@ -12,7 +12,10 @@ export default function HomePage() {
   return (
     <main>
     <ScrollFadeIn delay={0.1} glitch={true}>
+      <div>
       <h2 className="blog">My Blogs</h2>
+      <p className='communityInfo'>New Blog Every Wednesday!</p>
+      </div>
       <ul className="postList">
         {posts.map(post => (
           <li className="postItem" key={post.id}>
