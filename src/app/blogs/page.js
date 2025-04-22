@@ -14,7 +14,7 @@ export default function HomePage() {
     <ScrollFadeIn delay={0.1} glitch={true}>
       <div>
       <h2 className="blog">My Blogs</h2>
-      <p className='communityInfo'>New Blog Every Wednesday!</p>
+      <p className='communityInfo'>New Blog Every Wednesday @12pm EST</p>
       </div>
       <ul className="postList">
         {posts.map(post => (

@@ -163,6 +163,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.communityInfo{
+  font-family: 'Turret Road', sans-serif;
+  color: #f1ffff;
+  text-shadow: 0 0 5px #f0ffff;
+  letter-spacing: 2px;
+  animation: glow 1.5s infinite alternate;
+  text-align: center;
+  padding: 20px;
+}
 
 
 .subs{
@@ -406,7 +415,7 @@ a {
   text-decoration: none !important; /* Force remove the underline */
 }
 .aboutText:hover {
-  box-shadow: 0 0 20px rgb(128, 125, 255); /* your glow */
+  box-shadow: 0 0 20px rgb(145, 233, 255); /* Glowing futuristic effect */
   transition: box-shadow 0.5s ease-out; /* Fade-out effect */
 }
 
