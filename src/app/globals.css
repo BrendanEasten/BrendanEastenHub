@@ -86,7 +86,7 @@ body {
   font-family: 'Turret Road', sans-serif;
   font-size: 3rem;
   color: #8fffff;
-  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+  text-shadow: 0 0 10px #00ffff;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
   margin-left: 25px;
@@ -156,7 +156,7 @@ body {
   font-family: 'Turret Road', sans-serif;
   font-size: 2.5rem;
   color: #8fffff;
-  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+  text-shadow: 0 0 10px #00ffff;
   letter-spacing: 2px;
   animation: glow 1.5s infinite alternate;
   margin-top: 60px;
